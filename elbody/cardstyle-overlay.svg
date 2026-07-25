@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="400" viewBox="0 0 300 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CDBA9C"/><stop offset="1" stop-color="#8C7A5C"/></linearGradient>
+    <linearGradient id="s" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#231B0E" stop-opacity=".82"/><stop offset=".55" stop-color="#231B0E" stop-opacity=".2"/><stop offset="1" stop-color="#231B0E" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect x="26" y="18" width="248" height="364" rx="22"/></clipPath>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#2C2417" flood-opacity="0.13"/></filter>
+  </defs>
+  <rect width="300" height="400" fill="#F5EFE4"/>
+  <g clip-path="url(#c)" filter="url(#sh)">
+    <rect x="26" y="18" width="248" height="364" fill="url(#g)"/>
+    <rect x="26" y="210" width="248" height="172" fill="url(#s)"/>
+  </g>
+  <rect x="130" y="300" width="124" height="12" rx="5" fill="#fff"/>
+  <rect x="182" y="324" width="72" height="14" rx="5" fill="#fff"/>
+  <rect x="138" y="327" width="38" height="9" rx="4" fill="#fff" opacity=".6"/>
+</svg>
